@@ -36,8 +36,8 @@ public Circulo(){
     }
 
 
-
-    public String ImprimirCirculo(){
+@Override
+    public String toString(){
 
 
         return "Radio: "+this.Radio +" Color: "+this.Color+" Area: "+this.CalcularArea();
